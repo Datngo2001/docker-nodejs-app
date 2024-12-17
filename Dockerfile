@@ -2,7 +2,7 @@ FROM node
 
 WORKDIR /app
 
-# copy the pakage firsr, because it will not run npm install again when we change code
+# copy the pakage first, because it will not run npm install again when we change code
 COPY package.json /app 
 
 RUN npm install
